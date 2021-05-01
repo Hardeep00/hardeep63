@@ -1,0 +1,64 @@
+
+ 
+ 
+ @media screen and (max-width: 1023px)
+ {   
+  
+ }
+  
+ @media screen and (max-width: 767px)
+ {
+
+    .header
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+         
+    }
+
+    nav
+    {
+     margin-left: 30px;
+    }
+    .services-4a
+    {
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    .section-3
+    {
+        height: 20vh;
+    }
+
+ }
+
+ 
+ 
+ @media screen and (max-width: 480px)
+ {
+
+    body
+{
+    font-size: 80%;
+}
+    .section-3
+    {
+        height: 20vh;
+    }
+
+    .services-4a
+    {
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+    }
+    
+    .section-5 h1 
+    {
+        text-align: center;
+    }
+ }
+
+ 
